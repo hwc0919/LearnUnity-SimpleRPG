@@ -5,17 +5,18 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    public Vector3 offset;
     public float zoomSpeed;
     public float maxFov;
     public float minFov;
 
     private Transform playerTransform;
+    private Vector3 offset;
 
     // Start is called before the first frame update
     void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        offset = Camera.main.transform.position - playerTransform.position;
     }
 
     // Update is called once per frame
