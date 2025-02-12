@@ -22,7 +22,15 @@ public class PlayerMovement : MonoBehaviour
             RaycastHit hitInfo;
             if (Physics.Raycast(ray, out hitInfo))
             {
-                playerAgent.SetDestination(hitInfo.point);
+                Debug.Log("hit: " + hitInfo.collider.tag);
+                if (hitInfo.collider.tag == "Ground")
+                {
+                    playerAgent.SetDestination(hitInfo.point);
+                }
+                else if (hitInfo.collider.tag == "Interactable")
+                {
+                    hitInfo.collider.GetComponent<InteractableObject>().OnClick(playerAgent);
+                }
             }
         }
     }
