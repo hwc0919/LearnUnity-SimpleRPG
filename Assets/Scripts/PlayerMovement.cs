@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("hit: " + hitInfo.collider.tag);
                 if (hitInfo.collider.tag == "Ground")
                 {
+                    playerAgent.stoppingDistance = 0;
                     playerAgent.SetDestination(hitInfo.point);
                 }
                 else if (hitInfo.collider.tag == "Interactable")
