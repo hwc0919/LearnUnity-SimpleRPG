@@ -6150,6 +6150,161 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8903058273634951509, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
   m_PrefabInstance: {fileID: 1505824268}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1523825669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2315270095331521205, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_Name
+      value: woman-witch-halloween
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315270095331521205, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995892075962868711, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.97643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995892075962868711, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.97643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995892075962868711, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.97643
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4419
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4419
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4419
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.2410938
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.97050184
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 152.098
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128503442182613007, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3649234272944225304, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2315270095331521205, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1523825675}
+    - targetCorrespondingSourceObject: {fileID: 2315270095331521205, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1523825674}
+    - targetCorrespondingSourceObject: {fileID: 2315270095331521205, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1523825671}
+  m_SourcePrefab: {fileID: 100100000, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+--- !u!1 &1523825670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2315270095331521205, guid: c23f25962d63d0742b95fe5d2122caa1, type: 3}
+  m_PrefabInstance: {fileID: 1523825669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1523825671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523825670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c53028a9d5588438bab5f65d54a870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Witch
+  lines:
+  - "\u730E\u6740\u65F6\u523B"
+  dialogueUI: {fileID: 538407969}
+--- !u!136 &1523825674
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523825670}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.94093823
+  m_Height: 2.1549852
+  m_Direction: 1
+  m_Center: {x: 0.0000060498714, y: 0.86159706, z: -0.029456977}
+--- !u!208 &1523825675
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523825670}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.83, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1526199902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8604,6 +8759,7 @@ SceneRoots:
   - {fileID: 792460703}
   - {fileID: 1228307672}
   - {fileID: 5600214726202024114}
+  - {fileID: 1523825669}
   - {fileID: 923574100}
   - {fileID: 1542946194}
   - {fileID: 578931734}
