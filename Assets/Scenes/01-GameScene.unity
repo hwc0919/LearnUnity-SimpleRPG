@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 69513760}
   - component: {fileID: 69513759}
   m_Layer: 5
-  m_Name: Image
+  m_Name: ContentBg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1407,7 +1407,7 @@ GameObject:
   - component: {fileID: 380889394}
   - component: {fileID: 380889393}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ContentText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1878,6 +1878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538407968}
+  - component: {fileID: 538407969}
   m_Layer: 5
   m_Name: DialogueUI
   m_TagString: Untagged
@@ -1908,6 +1909,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &538407969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538407967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b83196256def645b852b479a83d12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentsBuffer: []
 --- !u!1001 &578673512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2913,7 +2927,7 @@ GameObject:
   - component: {fileID: 714466800}
   - component: {fileID: 714466799}
   m_Layer: 5
-  m_Name: Image
+  m_Name: NameBg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4922,7 +4936,7 @@ GameObject:
   - component: {fileID: 1179654660}
   - component: {fileID: 1179654659}
   m_Layer: 5
-  m_Name: NpcName
+  m_Name: NameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6423,7 +6437,7 @@ GameObject:
   - component: {fileID: 1588229724}
   - component: {fileID: 1588229723}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ContinueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
