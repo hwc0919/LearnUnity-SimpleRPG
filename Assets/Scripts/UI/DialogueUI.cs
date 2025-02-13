@@ -7,12 +7,19 @@ using UnityEngine.UI;
 
 public class DialogueUI : MonoBehaviour
 {
+    static public DialogueUI Instance { get; set; }
+
     private TextMeshProUGUI nameText;
     private TextMeshProUGUI contentText;
     private Button continueButton;
 
     private List<string> contentsBuffer;
     private int contentIndex;
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()

@@ -6,10 +6,9 @@ public class NPCObject : InteractableObject
 {
     public string npcName;
     public string[] lines;
-    public DialogueUI dialogueUI;
 
     protected override void Interact()
     {
-        dialogueUI.Show(npcName, lines);
+        DialogueUI.Instance.Show(npcName, lines);
     }
 }
