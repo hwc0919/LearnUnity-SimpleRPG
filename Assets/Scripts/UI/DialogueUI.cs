@@ -21,6 +21,7 @@ public class DialogueUI : MonoBehaviour
         contentText = transform.Find("ContentText").GetComponent<TextMeshProUGUI>();
         continueButton = transform.Find("ContinueButton").GetComponent<Button>();
         continueButton.onClick.AddListener(this.OnContinue);
+        Hide();
     }
 
     // Update is called once per frame
@@ -44,6 +45,8 @@ public class DialogueUI : MonoBehaviour
         contentsBuffer = new List<string>(contents);
         contentIndex = 0;
         contentText.text = contentsBuffer[contentIndex];
+
+        gameObject.SetActive(true);
     }
 
     public void Hide()
