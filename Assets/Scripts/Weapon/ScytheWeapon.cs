@@ -29,9 +29,5 @@ public class ScytheWeapon : Weapon
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Attack();
-        }
     }
 }
