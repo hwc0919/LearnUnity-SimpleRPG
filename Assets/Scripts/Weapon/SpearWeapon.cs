@@ -25,9 +25,12 @@ public class SpearWeapon : Weapon
     public void Shoot() // animation triggered
     {
         bulletInHand.transform.SetParent(null);
-        bulletInHand.GetComponent<Rigidbody>().velocity = transform.forward * bulletSpeed;
-        bulletInHand = null;
+        Rigidbody rigidbody = bulletInHand.GetComponent<Rigidbody>();
+        // set properties
+        rigidbody.velocity = transform.forward * bulletSpeed;
+        rigidbody.useGravity = true;
 
+        bulletInHand = null;
         Invoke("NewBulletInHand", 2.0f);
     }
 
