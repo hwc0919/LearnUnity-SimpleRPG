@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpearBullet
       objectReference: {fileID: 0}
+    - target: {fileID: 3140830376302814010, guid: e8573012f5a2b24459ddc6d90fcf0273, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3314824269185080627, guid: e8573012f5a2b24459ddc6d90fcf0273, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6
