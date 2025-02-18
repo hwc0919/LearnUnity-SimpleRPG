@@ -9,6 +9,7 @@ public class SpearWeapon : Weapon
     public GameObject bulletPrefab;
     public float bulletSpeed = 10f;
     private GameObject bulletInHand;
+    private Animator animator;
 
     public override void Attack()
     {
@@ -18,15 +19,15 @@ public class SpearWeapon : Weapon
             return;
         }
         // fire
-        // Animator animator = bulletInHand.GetComponent<Animator>();
-        // animator.SetTrigger("ready");
-        // bulletInHand.transform.SetParent(null);
-        print("forward: " + transform.forward);
+        animator.SetTrigger("ready"); // will trigger Shoot method
+    }
+
+    public void Shoot() // animation triggered
+    {
         bulletInHand.transform.SetParent(null);
         bulletInHand.GetComponent<Rigidbody>().velocity = transform.forward * bulletSpeed;
-        print("velocity: " + bulletInHand.GetComponent<Rigidbody>().velocity);
-
         bulletInHand = null;
+
         Invoke("NewBulletInHand", 2.0f);
     }
 
@@ -44,6 +45,15 @@ public class SpearWeapon : Weapon
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
+
+        // Destroy original
+        var obj = transform.Find("SpearBullet");
+        if (obj != null)
+        {
+            Destroy(obj.gameObject);
+        }
+        // create new
         NewBulletInHand();
     }
 
