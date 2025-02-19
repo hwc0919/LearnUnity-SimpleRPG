@@ -28,7 +28,7 @@ public class SpearWeapon : Weapon
         Rigidbody rigidbody = bulletInHand.GetComponent<Rigidbody>();
         // set properties
         rigidbody.velocity = transform.forward * bulletSpeed;
-        rigidbody.useGravity = true;
+        // rigidbody.useGravity = true;
 
         SpearBullet bullet = bulletInHand.GetComponent<SpearBullet>();
         bullet.EnableCollider();
