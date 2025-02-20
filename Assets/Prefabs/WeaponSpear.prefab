@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7156792515160215935}
   - component: {fileID: 505536244937635229}
+  - component: {fileID: 1747976368264684580}
   m_Layer: 0
   m_Name: WeaponSpear
   m_TagString: Untagged
@@ -29,7 +30,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2311039305613772568}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &505536244937635229
@@ -44,4 +46,89 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6efced61eb62e0843bc189fb12c64171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageValue: 0
+  damageValue: 20
+  bulletPrefab: {fileID: 6937926228452323618, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+  bulletSpeed: 10
+--- !u!95 &1747976368264684580
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066528837799900037}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ee42a2cb56c1624fb6f67b274d2d2c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &5029648519988824115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7156792515160215935}
+    m_Modifications:
+    - target: {fileID: 6937926228452323618, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_Name
+      value: SpearBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000007497829
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001287739
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+--- !u!4 &2311039305613772568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7340463525196975915, guid: 79709ab3a86137e4982078737a9be3e5, type: 3}
+  m_PrefabInstance: {fileID: 5029648519988824115}
+  m_PrefabAsset: {fileID: 0}

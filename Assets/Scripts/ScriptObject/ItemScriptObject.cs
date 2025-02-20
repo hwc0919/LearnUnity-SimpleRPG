@@ -21,13 +21,14 @@ public enum ItemPropertyType
 [Serializable]
 public class ItemProperty
 {
-    public ItemPropertyType PropertyType { get; set; }
-    public float Value { get; set; }
+    public ItemPropertyType propType;
+    public float value;
 }
 
 [CreateAssetMenu()]
 public class ItemScriptObject : ScriptableObject
 {
+    public int id;
     public string itemName;
     public ItemType itemType;
     public string description;

@@ -10,10 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2adbe81fc706bfc4f95546f3e98f0919, type: 3}
-  m_Name: New Item Script Object
+  m_Name: Consumable_SuperPotion
   m_EditorClassIdentifier: 
-  itemName: 
-  itemType: 0
-  description: 
+  id: 2001
+  itemName: "\u8D85\u7EA7\u836F\u6C34"
+  itemType: 1
+  description: "\u53EF\u4EE5\u77AC\u95F4\u56DE\u590D\u751F\u547D"
   icon: {fileID: 0}
   prefab: {fileID: 0}
+  properties:
+  - propType: 0
+    value: 30
+  - propType: 1
+    value: 20
+  - propType: 2
+    value: 20

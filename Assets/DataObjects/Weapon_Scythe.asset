@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2adbe81fc706bfc4f95546f3e98f0919, type: 3}
+  m_Name: Weapon_Scythe
+  m_EditorClassIdentifier: 
+  id: 1001
+  itemName: "\u9752\u9F99\u5043\u6708\u5200"
+  itemType: 0
+  description: "\u8FD9\u662F\u4E00\u4E2A\u5F88\u725B\u903C\u7684\u9570\u5200\uFF0C\u4F60\u503C\u5F97\u62E5\u6709"
+  icon: {fileID: 0}
+  prefab: {fileID: 7113656939273808373, guid: 5f1935883f3bd9c48a2099422d4e8fc0, type: 3}
+  properties:
+  - propType: 4
+    value: 30
