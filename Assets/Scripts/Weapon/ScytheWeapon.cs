@@ -21,7 +21,7 @@ public class ScytheWeapon : Weapon
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag == Tag.ENEMY)
         {
             print("Trigger with enemy " + other.name);
         }
